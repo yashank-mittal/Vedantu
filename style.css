@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Container-1 css starts image part */
+
 .heading{
     position: relative;
     bottom: 12rem;
@@ -23,7 +25,9 @@
     font-size: 14px;
     margin: 18px 0px 0px;
 }
+/* Container-1 css ends image part */
 
+/* Container-2 css starts Cards part */
 .Container-2{
     display: flex;
     justify-content: space-around;
@@ -36,6 +40,8 @@
     z-index: 1;
 }
 
+/* each div css */
+
 .div-con-1{
     height: 290px;
     box-shadow: 0 0 5px #bac3c3;
@@ -44,6 +50,8 @@
     flex: 1 1 320px;
     margin: 20px;
 }
+
+/* button css */
 .con-button{
     color: #ffffff;
     background-color: #ff6D26;
@@ -51,23 +59,27 @@
     width: 150px;
     border-radius: 60px;
 }
+/* star icon css */
+
 .con-icon{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
+/* using flex to whole div */
 .con-head{
     display: flex;
     padding: 20px 16px 16px 20px;
     margin-top: 20px;
 }
-
+/* border css */
 .con-border{
     height: 170px;
     border-bottom: 1px solid lightgrey;
 }
 
+/* Container- 2 paragraph part*/
 .con-para{  
     margin-top: 50px;
 }
@@ -83,3 +95,5 @@
 .para-inner{
     margin-left: 10px;
 }
+
+/* Container-2 css ends Cards part */
